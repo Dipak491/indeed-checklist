@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Checklist App</h1>
+        <form id="checklist-form">
+            <label for="field1">DPU</label>
+            <input type="checkbox" id="field1">
+            <label for="field2">Reference ID</label>
+            <input type="checkbox" id="field2">
+            <label for="field3">Title</label>
+            <input type="checkbox" id="field3">
+            <label for="field4">Location</label>
+            <input type="checkbox" id="field4">
+            <label for="field5">Street Address</label>
+            <input type="checkbox" id="field5">
+            <label for="field6">Description</label>
+            <input type="checkbox" id="field6">
+            <label for="field7">Type</label>
+            <input type="checkbox" id="field7">
+            <label for="field8">Full Time Part-time / Permanent</label>
+            <input type="checkbox" id="field8">
+            <label for="field9">Published Date / Expiration Date</label>
+            <input type="checkbox" id="field9">
+            <label for="field10">Work Schedule</label>
+            <input type="checkbox" id="field10">
+            <label for="field11">Contact Email</label>
+            <input type="checkbox" id="field11">
+            <label for="field12">Benefits</label>
+            <input type="checkbox" id="field12">
+            <label for="field13">Type Intern / Ausbuild</label>
+            <input type="checkbox" id="field13">
+            <button type="button" onclick="addItem()">Submit</button>
+            <button type="button" onclick="resetFields()">Reset</button>
+        </form>
+        <ul id="checklist"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
